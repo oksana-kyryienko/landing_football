@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Футбольный лендинг</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <h1 class="header__title">Футбольный мир</h1>
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="#about" class="header__menu-link">О нас</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#services" class="header__menu-link">Услуги</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#contact" class="header__menu-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section id="about" class="section section--about">
+        <div class="container">
+          <h2 class="section__title">О нас</h2>
+          <p class="section__description">
+            Мы команда энтузиастов, объединенных любовью к футболу. Наша миссия
+            – сделать футбол доступным для всех!
+          </p>
+          <a href="#services" class="button button--primary">Узнать больше</a>
+        </div>
+      </section>
+      <section id="services" class="section section--services">
+        <div class="container">
+          <h2 class="section__title">Наши услуги</h2>
+          <div class="services">
+            <div class="service">
+              <h3 class="service__title">Тренировки</h3>
+              <p class="service__description">
+                Профессиональные тренеры помогут вам улучшить свои навыки на
+                поле и стать лучше!
+              </p>
+            </div>
+            <div class="service">
+              <h3 class="service__title">Мероприятия</h3>
+              <p class="service__description">
+                У нас проводятся различные турниры, матчи и мастер-классы для
+                всех возрастов и уровней подготовки.
+              </p>
+            </div>
+            <div class="service">
+              <h3 class="service__title">Оборудование</h3>
+              <p class="service__description">
+                У нас вы можете приобрести качественное футбольное оборудование
+                по доступным ценам!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section section--contact">
+        <div class="container">
+          <h2 class="section__title">Свяжитесь с нами</h2>
+          <p class="section__description">
+            Оставьте заявку и наш менеджер свяжется с вами в ближайшее время!
+          </p>
+          <form action="#" class="contact-form">
+            <input
+              type="text"
+              class="contact-form__input"
+              placeholder="Ваше имя"
+            >
+            <input
+              type="email"
+              class="contact-form__input"
+              placeholder="Ваш Email"
+            >
+            <textarea
+              class="contact-form__textarea"
+              placeholder="Ваше сообщение"
+            ></textarea>
+            <button type="submit" class="contact-form__submit">
+              Отправить
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__copyright">
+          © 2024 Футбольный клуб. Все права защищены.
+        </p>
+      </div>
+      <a href="#header" class="button button--secondary"
+        ><span class="button__arrow">↑</span></a
+      >
+    </footer>
+  </body>
+</html>
